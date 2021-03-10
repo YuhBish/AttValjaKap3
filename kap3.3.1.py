@@ -1,7 +1,9 @@
 import math
-print("Hur många minuter ringer du per månad?")
-minuter=input()
-a=33
-b=66
-if minuter <= a:
-    print("Kontant")
+min=float(input("Hur många minuter ringer du telefon per månad? "))  
+
+if min<=33:
+    print("Välj KONTANT abbonemanget")    
+elif min<=66:
+    print("Välj NORMAL abbonemanget")
+else:
+    print("Välj PLUS abbonemanget")    
